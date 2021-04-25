@@ -30,7 +30,7 @@ const ContactList = ({ value, contacts, handleChange, handleDelete }) => {
           ))}
         </ul>
       ) : (
-        <p className={styles.notification}>No name in Phonebook</p>
+        <p className={styles.notification}>😔 No name in Phonebook</p>
       )}
     </div>
   );
