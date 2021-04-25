@@ -3,3 +3,13 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.headTitle {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.title {
+  margin-top: 35px;
+  font-size: 36px;
+}

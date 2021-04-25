@@ -1,0 +1,61 @@
+.section {
+  width: 450px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+
+  font-size: 26px;
+}
+
+.input {
+  margin-top: 5px;
+  padding: 2px 10px;
+
+  font-size: 20px;
+  color: darkgrey;
+}
+
+.button {
+  display: inline-block;
+  padding: 0px 10px;
+  height: 30px;
+
+  font-size: 18px;
+
+  background: #fff;
+  cursor: pointer;
+}
+
+.input,
+.button {
+  border-style: none;
+  border: 1px solid rgb(189, 188, 188);
+  border-radius: 3px;
+  box-shadow: 4px 4px 5px 1px rgba(172, 171, 171, 0.7);
+}
+
+.button:hover,
+.button:focus {
+  background: lightblue;
+}
+
+.list {
+  margin-top: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 10px;
+
+  font-size: 22px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
